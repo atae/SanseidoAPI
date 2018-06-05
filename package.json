@@ -1,0 +1,28 @@
+{
+  "name": "SanseidoAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "json_maker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atae/SanseidoAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atae/SanseidoAPI/issues"
+  },
+  "homepage": "https://github.com/atae/SanseidoAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.0.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
