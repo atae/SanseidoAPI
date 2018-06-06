@@ -1,5 +1,5 @@
-var expressions = require('../db/large_term_bank_expressions_');
-var readings = require('../db/large_term_bank_readings_');
+var expressions = require('../../utils/processed/large_term_bank_expressions_');
+var readings = require('../../utils/processed/large_term_bank_readings_');
 var fs = require('fs');
 
 
